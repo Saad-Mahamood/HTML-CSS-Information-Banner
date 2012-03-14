@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Warning Message Test</title>
+	<style type="text/css">
+		#btfamily-message-symbol {
+			float: left;
+			width: 37px;
+			height:37px;
+			min-width: 37px;
+			min-height:37px;	
+			margin-left: 5px;
+			margin-top: -3px;
+			border-style: solid;
+			border-color: #FFFFFF;
+			border-width: 4px;	
+			border-radius: 47px;
+			-webkit-border-radius: 47px;
+			-moz-border-radius: 47px;
+			
+		}
+		
+		#btfamily-message-symbolcontent {
+			margin-top: 28%;
+			margin-left:0.01em;
+			font-size: 37px;
+			font-family: Times;
+			text-align: center;
+		}
+		
+		#btfamily-message-messageboxcontent {
+			font-family: Helvetica, Arial;
+			font-size: 13px;
+			font-weight: bold;
+			text-shadow: 0 -1px 1px rgba(0,0,0,.45);
+			margin-left: 75px;
+			text-align: left;
+			line-height: 1.3em;
+		}
+		
+		#btfamily-message-reportbox {
+			width: 90%;
+			min-width: 400px;
+			min-height:50px;
+			height: auto;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			margin-left: auto;
+			margin-right: auto;
+			line-height: 120%;
+			text-align: center;
+			padding: 1%;
+			color: #FFFFFF;
+			border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			box-shadow: 0 0 15px #888;
+			-webkit-box-shadow: 2px 2px 5px #888;
+			-moz-box-shadow: 2px 2px 5px #888;
+		}
+		
+		/* Information box specific classes: */
+		
+		.btfamily-informationbox {
+			background: #3b557e;
+			/* filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#6482ad,EndColorStr=#3b557e); */
+			background-image: linear-gradient(to bottom,#6482ad 0,#3b557e 45px);
+			background-image: -moz-linear-gradient(top,#6482ad 0,#3b557e 45px);
+			background-image: -ms-linear-gradient(top,#6482ad 0,#3b557e 45px);
+			background-image: -o-linear-gradient(top,#6482ad 0,#3b557e 45px);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#6482ad),color-stop(45px,#3b557e));
+			background-image: -webkit-linear-gradient(top,#6482ad 0,#3b557e 45px);
+			
+		}
+		
+	</style>
+	<!--[if (lt IE 9)]>
+		<script type="text/javascript" src="./js/DD_roundies_0.0.2a-min.js"></script>
+
+		<script type="text/javascript">
+			DD_roundies.addRule('#btfamily-message-reportbox', '10px');
+		</script>
+
+		<script type="text/javascript">
+			DD_roundies.addRule('#btfamily-message-symbol', '47px');
+		</script>
+	<![endif]-->
+	<!--[if (lt IE 9) & (gt IE 6)]>
+		<style type="text/css">
+			#btfamily-message-symbol {
+				margin-top: 0px;
+			}
+		
+			#btfamily-message-symbolcontent {
+				margin-top: 35%;
+			}
+			
+			#btfamily-message-reportbox { 
+				height: 50px;
+			}
+		</style>
+	<![endif]-->
+	<!--[if IE 6]>
+		<style type="text/css">
+			#btfamily-message-symbol {
+				margin-top: 5px;
+			}
+			
+			#btfamily-message-symbolcontent {
+				font-size: 28px;
+			}
+			
+			#btfamily-message-reportbox { 
+				height: 50px;
+			}
+		</style>
+	<![endif]-->
+	
+</head>
+
+<body>
+<div id="btfamily-message-reportbox" class="btfamily-informationbox">
+	<div id="btfamily-message-symbol"><div id="btfamily-message-symbolcontent">i</div></div>
+	<div id="btfamily-message-messageboxcontent">
+		<p>Put information message here in this box.</p>
+	</div>
+
+</div>
+
+</body>
+</html>
